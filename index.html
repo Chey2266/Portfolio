@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <link rel="stylesheet" href="asset/Port.css">
+    <title>Personal Portfolio</title>
+    <script src="https://kit.fontawesome.com/861ce09321.js" crossorigin="anonymous"></script>
+</head>
+<body>
+   <div id="header">
+        <div class="container">
+            <nav>
+                <img src="asset/chaitanya-high-resolution-logo-transparent (1).png" class="logo" alt="">
+                <ul id="sidemenu">
+                    <li><a href="#header" onclick="closemenu()">Home</a></li>
+                    <li><a href="#about" onclick="closemenu()">About</a></li>
+                    <li><a href="#services" onclick="closemenu()">Services</a></li>
+                    <li><a href="#portfolio" onclick="closemenu()">Portfolio</a></li>
+                    <li><a href="#contact" onclick="closemenu()">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hi, I'm <span>Chaitanya</span><br>Mulaka From India</h1>
+            </div>
+        </div>
+   </div>
+<!-- ------------about------ -->
+   <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="asset/PHOTO.jpeg" alt="">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Hello! I'm Chaitanya Mulaka, a Civil Engineer with a keen interest in the dynamic world of web development. Armed with a Bachelor's degree in Civil Engineering, I've spent years mastering the intricacies of infrastructure design, construction, and project management.
+                </p><br>
+                <p>My journey in civil engineering has been incredibly rewarding, but alongside it, I've nurtured a fervent passion for web development. I find the digital landscape fascinating, and my enthusiasm for coding and creating online experiences drives me to constantly expand my skills in this domain.</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>FullStack Web Development</span><br>FrontEnd Web Development <br> BackEnd Web Development</li>
+                        <li><span>UI/UX</span><br>Designing Web Interface</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>January 2024 - March 2024</span><br>Web Designer Intern at Estah Society</li>
+                        <li><span>2023</span><br>FullStack Web Development Training at Elearn Infotech</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2020 - 2023</span><br>Graduation from Mother Teresa Intitute of Science and Technology Sathupalli</li>
+                        <li><span>2017 - 2020</span><br>Diploma from Mother Teresa Intitute of Science and Technology Sathupalli</li>
+                        <li><span>2016 - 2017</span><br>SSC from Geethanjali Vidyalayam Sathupalli</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+   </div>
+   <!-- ----------sevices---------- -->
+   <div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>FullStack Web Development</h2>
+                <p>As a full-stack web developer, I possess a comprehensive skill set encompassing both front-end and back-end development. On the front end, I am proficient in HTML, CSS, and JavaScript, with experience in modern frameworks such as React.js, Angular, or Vue.js. I have a strong understanding of responsive web design principles and UI/UX best practices, allowing me to create visually appealing and user-friendly interfaces.</p><br>
+                <p>In the back end, I have expertise in server-side programming languages such as JavaScript and Node.JS. I am skilled in designing and implementing RESTful APIs and integrating with databases such as MongoDB and MySQL for data storage and retrieval. </p>
+                <a href="#">learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>UI/UX Design</h2>
+                <p>"As a UI/UX designer, I excel in creating intuitive and visually compelling digital experiences that prioritize user satisfaction and engagement. In UI design, I have a keen eye for aesthetics and attention to detail, allowing me to craft visually appealing interfaces that resonate with users.</p><br>
+                <p>Additionally, I have experience with front-end development technologies such as HTML, CSS, Bootstrap, Jquery and JavaScript, allowing me to collaborate effectively with developers and translate designs into code. I am familiar with responsive design techniques and understand the importance of designing for multiple devices and screen sizes.</p>
+                <a href="#">learn more</a>
+            </div>
+        </div>
+    </div>
+   </div>
+
+<!-- ------------portfolio------ -->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="asset/work-1.png" alt="">
+                <div class="layer">
+                    <h3>Training Institute</h3>
+                    <p>The training institute web application development project aimed to create a user
+                        friendly platform that facilitates efficient management of courses, students, 
+                        instructors, schedules, and resources. Leveraging the power of React.js for dynamic 
+                        user interfaces and MongoDB for flexible data storage. </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="asset/work-3.png" alt="">
+                <div class="layer">
+                    <h3>Data Collection</h3>
+                    <p>The data collection project aimed to enhance the functionality of the company's web 
+                        application by implementing a comprehensive module for gathering, storing, and 
+                        managing various types of data critical to the organization's operations.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="asset/net.png" alt="">
+                <div class="layer">
+                    <h3>Netflix Homepage</h3>
+                    <p>The Static Netflix Homepage Redesign project aimed to reimagine the visual 
+                        aesthetics and user interface of the Netflix homepage through a static website format. </p>
+                    <a href="https://chey2266.github.io/Netflixhomepage/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="asset/c-logo.png" alt="">
+                <div class="layer">
+                    <h3>Music Website</h3>
+                    <p>The Static Music Website Development project aimed to create a sleek and 
+                        minimalist website to promote music albums, artists, and events while delivering an 
+                        immersive and engaging user experience. </p>
+                    <a href="https://chey2266.github.io/music/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="asset/img.webp" alt="">
+                <div class="layer">
+                    <h3>Weather Website</h3>
+                    <p>Focusing on intuitive UI/UX design principles and backend API integration to deliver accurate weather reports for diverse locations. Collaborated closely with cross-functional teams to ensure seamless user experiences and reliable data retrieval mechanisms.</p>
+                    <a href="https://chey2266.github.io/Weather/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+
+<!-- -------------contact---------- -->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-sharp fa-solid fa-paper-plane"></i> chaitumulaka@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> +91 7013267955</p>
+                <div class="social-icons">
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/chaitanya-mulaka-a85556213/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                </div>
+                <a href="asset/Chaitanya-Resume.pdf" download class="btn btn2">Download CV <i class="fa-solid fa-download"></i></a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <input type="number" name="Mobile No" placeholder="Your Mobile" required>
+                    <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright &copy; Designed_by_Chaitanya_M <i class="fa-sharp fa-solid fa-bolt"></i></p>
+    </div>
+</div>
+
+   <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+   </script>
+
+   <script>
+    
+    var sidemenu = document.getElementById("sidemenu")
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+
+   </script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbz18P9c4QZvRGfrKsVp2au_sQFA7zcZ27w9Ovj7d6-4Y2x4yASxxo7yiVIWv_jt4-og/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
+
